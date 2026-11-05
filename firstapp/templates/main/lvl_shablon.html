@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор Лута</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/skib22.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/buttons2.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/loot5.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Fri, 20 Mar 2014 00:00:00 GMT" />
+  
+    
+</head>
+<body>
+    <b class="b", >Результаты
+        <hr>
+        <hr>
+    </b>
+    <aside class="aside_lvl">
+        
+        <img class="im", src="{% static 'main/images.main/d20 (1).png' %}", height=100></im>
+        <p><h3>Навигация</h3></p>
+        <ul>
+            <a href="http://127.0.0.1:8000/"><li class="links">Главная</li></a>
+            <a href="http://127.0.0.1:8000/about"><li class="links"><d>Создатели</d></li></a>
+            <a href="http://127.0.0.1:8000/game"><li class="links"><d>Об игре</d></li></a>
+            <a href="http://127.0.0.1:8000/catalog"><li class="links"><d>Каталог</d></li></a>
+    </aside>
+   <main class="main">
+    <p class="gold">Золото: <b class="three">{{ money1 }} золотых</b></p>
+    <p class="common">Обычные Предметы: <b class="one">{{ commonart1 }}  </b><b class="two">{{ commonart2 }}</b>   <b class="three">{{ commonart3 }}</b>  <b class="four">{{ commonart4 }}</b> </p>
+    <p class="uncommon">Необычные Предметы: <b class="one">{{ uncommonart1 }}</b>  <b class="two">{{ uncommonart2 }}</b>  <b class="three">{{ uncommonart3 }}</b>   <b class="four">{{ uncommonart4 }}</b> </p>
+    <p class="rare">Редкие Предметы: <b class="one">{{ rareart1 }}</b>  <b class="two">{{ rareart2 }}</b>  <b class="three">{{ rareart3 }}</b>  <b class="four">{{ rareart4 }}</b> </p>
+    <p class="unrare">Сверхредкие Предметы: <b class="one">{{ unrareart1 }}</b>  <b class="two">{{ unrareart2 }}</b>  <b class="three">{{ unrareart3 }}</b>   <b class="four">{{ unrareart4 }}</b> </p>
+    <p class="legendary"> Легендарные Предметы: <b class="one">{{ legendaryart1 }}</b>  <b class="two">{{ legendaryart2 }}</b>  <b class="three">{{ legendaryart3 }}</b>   <b class="four">{{ legendaryart4 }}</b> </p>
+    <p class="artifact">Предметы редкости "Артефакт": <b class="one">{{ artifactart1 }}</b>  <b class="two">{{ artifactart2 }}</b>  <b class="three">{{ artifactart3 }}</b>   <b class="four">{{ artifactart4 }}</b> </p>
+
+   </main>
+
+
+</body>
+</html>

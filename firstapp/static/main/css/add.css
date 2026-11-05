@@ -1,0 +1,42 @@
+
+body {
+    background:gray
+    }
+    aside {
+    float:left;
+    background:#7FFFD4;
+    width:10%;
+    padding:3,5%;
+    height:100vh;
+    }
+    
+    aside h3{color:white;
+    }
+    .ur{font-size:20px;
+    color:white;
+    text-decoration:none;
+    
+    }
+    .ur:hover{
+    color:red;
+    }
+    .ur:hover{
+    font-size:25px;
+    }
+    .ur:hover{
+    margin-left:-8px;
+    }
+    aside h3 {
+    color:black
+    }
+    .ur {
+    color:black
+    }
+    aside glav {
+    margin-left:30px
+    }
+    aside cre {
+    margin-left:20px
+    }
+    aside im {
+    margin-left:10px}

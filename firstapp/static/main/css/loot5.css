@@ -1,0 +1,59 @@
+.main{
+    margin-left:300px;
+    margin-top: -700px;
+    height: 100%;
+    width: 1000px;
+    background-color:azure;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.gold{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.common{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.uncommon{
+    margin-top:50px ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.rare{
+    margin-top:50px ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.unrare{
+    margin-top:50px ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.legendary{
+    margin-top:50px ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.artifact{
+    margin-top:60px ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+main p:hover{
+    color:rgb(140, 94, 122);
+}
+.one{
+color:rgb(72, 213, 72);
+}
+.two{
+    color:rgb(97, 97, 215);
+}
+.three{
+    color:rgb(199, 199, 79);
+}
+.four{
+    color:rgb(236, 26, 26);
+}

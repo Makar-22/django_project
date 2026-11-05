@@ -1,0 +1,28 @@
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('',views.index),
+    path('about',views.about),
+    path('catalog',views.catalog),
+    path('game',views.game),
+    path('1',views.level1),
+    path('2',views.level2),
+    path('3',views.level3),
+    path('4',views.level4),
+    path('5',views.level5),
+    path('6',views.level6),
+    path('7',views.level7),
+    path('8',views.level8),
+    path('9',views.level9),
+    path('10',views.level10),
+    path('11',views.level11),
+    path('12',views.level12),
+    path('13',views.level13),
+    path('14',views.level14),
+    path('15',views.level15),
+    path('16',views.level16),
+    path('17',views.level17),
+    path('18',views.level18),
+    path('19',views.level19),
+    path('20',views.level20),
+]
